@@ -17,6 +17,8 @@
 
 This is a thin wrapper around the [skyzyx/signer](https://github.com/skyzyx/signer) package.
 
+This project uses [Semantic Versioning](http://semver.org) for managing backwards-compatibility.
+
 
 ## Examples
 ### Generate a signature

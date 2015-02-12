@@ -18,6 +18,9 @@ WePay Signer for PHP
 
 This is a WePay-specific wrapper around the `skyzyx/signer <https://github.com/skyzyx/signer>`__ package.
 
+This project uses `Semantic Versioning <http://semver.org>`__ for managing backwards-compatibility.
+
+
 User guide
 ----------
 
