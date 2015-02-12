@@ -19,7 +19,7 @@ This is a thin wrapper around the [skyzyx/signer](https://github.com/skyzyx/sign
 
 
 ## Examples
-
+### Generate a signature
 ```php
 use WePay\Signer\Signer;
 
@@ -37,6 +37,7 @@ $signature = wordwrap($signature, 64, "\n", true);
 #=> 35e9a0b834aa21ac76f98da8c52a2a0cd1b0192d0f0df5c98e3848b1b2e1a037
 ```
 
+### Generate all of the query string parameters for the request
 ```php
 $querystring = $signer->generateQueryStringParams([
     'page'         => $wepay_page_to_visit,
