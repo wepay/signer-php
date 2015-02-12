@@ -29,6 +29,7 @@ User guide
 
    installation
    testing
+   debug-logging
    api-reference
    usage
    signing-algorithm
