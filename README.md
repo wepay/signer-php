@@ -8,7 +8,7 @@
 [![Coverage Status](http://img.shields.io/coveralls/wepay/signer-php/master.svg?style=flat-square)](https://coveralls.io/r/wepay/signer-php?branch=master)
 [![Code Climate](http://img.shields.io/codeclimate/github/wepay/signer-php.svg?style=flat-square)](https://codeclimate.com/github/wepay/signer-php)
 [![Code Quality](http://img.shields.io/scrutinizer/g/wepay/signer-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/wepay/signer-php)
-[![Dependency Status](https://www.versioneye.com/user/projects/!!!!!!!/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/!!!!!!!)
+[![Dependency Status](https://www.versioneye.com/user/projects/54dc5ab6c1bbbd9bd700050e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/!!!!!!!)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/!!!!!!!/mini.png)](https://insight.sensiolabs.com/projects/!!!!!!!)
 [![HHVM Support](http://img.shields.io/hhvm/wepay/signer-php.svg?style=flat-square)](https://hhvm.com)
 [![Documentation Status](https://readthedocs.org/projects/wepay-signer/badge/?version=master&style=flat-square)](https://readthedocs.org/projects/shared-utilities/?badge=master)
