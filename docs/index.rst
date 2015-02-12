@@ -71,9 +71,8 @@ User guide
 .. toctree::
     :maxdepth: 2
 
-   logger-dispatcher-configuration
-   traits
-   utilities
+   usage
+   signing-algorithm
 
 Coding Standards
 ----------------
