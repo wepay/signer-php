@@ -19,7 +19,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/wepay/signer/issues"
+        "issues": "https://github.com/wepay/signer-php/issues"
     },
     "require": {
         "php": ">=5.4.0",
