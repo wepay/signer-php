@@ -19,10 +19,19 @@ class Signer implements SignerInterface
     // PROPERTIES
 
     /** @var string */
+    private $self_key;
+
+    /** @var string */
     private $client_id;
 
     /** @var string */
     private $client_secret;
+
+    /** @var string */
+    private $hash_algo;
+
+    /** @var \Skyzyx\Signer\Signer */
+    private $signer;
 
 
     /**************************************************************************/
@@ -87,7 +96,7 @@ class Signer implements SignerInterface
     public function sign(array $payload)
     {
         $payload = array_merge($payload, [
-            'client_id'     => $this->getClientId(),
+            'client_id' => $this->getClientId(),
             'client_secret' => $this->getClientSecret(),
         ]);
 
@@ -103,8 +112,9 @@ class Signer implements SignerInterface
     public function generateQueryStringParams(array $payload)
     {
         $token = $this->sign($payload);
+
         $payload['client_id'] = $this->getClientId();
-        $payload['token'] = $token;
+        $payload['token']     = $token;
 
         ksort($payload);
 
