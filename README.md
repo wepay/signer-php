@@ -1,8 +1,8 @@
 # WePay Signer for PHP
 
 [![Source](http://img.shields.io/badge/source-wepay/signer–php-blue.svg?style=flat-square)](https://github.com/wepay/signer-php)
-[![Latest Stable Version](http://img.shields.io/packagist/v/wepay/signer-php.svg?style=flat-square)](https://packagist.org/packages/wepay/signer-php)
-[![Total Downloads](http://img.shields.io/packagist/dt/wepay/signer-php.svg?style=flat-square)](https://packagist.org/packages/wepay/signer-php)
+[![Latest Stable Version](http://img.shields.io/packagist/v/wepay/signer.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
+[![Total Downloads](http://img.shields.io/packagist/dt/wepay/signer.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
 [![Open Issues](http://img.shields.io/github/issues/wepay/signer-php.svg?style=flat-square)](https://github.com/wepay/signer-php/issues)
 [![Build Status](http://img.shields.io/travis/wepay/signer-php/master.svg?style=flat-square)](https://travis-ci.org/wepay/signer-php)
 [![Coverage Status](http://img.shields.io/coveralls/wepay/signer-php/master.svg?style=flat-square)](https://coveralls.io/r/wepay/signer-php?branch=master)
@@ -12,7 +12,7 @@
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/!!!!!!!/mini.png)](https://insight.sensiolabs.com/projects/!!!!!!!)
 [![HHVM Support](http://img.shields.io/hhvm/wepay/signer-php.svg?style=flat-square)](https://hhvm.com)
 [![Documentation Status](https://readthedocs.org/projects/wepay-signer/badge/?version=master&style=flat-square)](https://readthedocs.org/projects/shared-utilities/?badge=master)
-[![License](http://img.shields.io/packagist/l/wepay/signer-php-blue.svg?style=flat-square)](https://packagist.org/packages/wepay/signer-php)
+[![License](http://img.shields.io/packagist/l/wepay/signer-blue.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
 [![Author](http://img.shields.io/badge/author-@skyzyx-blue.svg?style=flat-square)](https://twitter.com/skyzyx)
 
 This is a thin wrapper around the [skyzyx/signer](https://github.com/skyzyx/signer) package.
