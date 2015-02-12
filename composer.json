@@ -1,0 +1,44 @@
+{
+    "name": "wepay/signer",
+    "description": "Cryptographically sign data to prevent tampering for SSO.",
+    "keywords": ["crypto","signing","sha256"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ryan Parman",
+            "homepage": "http://ryanparman.com"
+        },
+        {
+            "name": "Michael Dowling",
+            "homepage": "http://mtdowling.com"
+        },
+        {
+            "name": "Jeremy Lindblom",
+            "homepage": "http://www.webjeremy.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wepay/sso-php/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mcrypt": "*",
+        "skyzyx/signer": "^1.0"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "*@dev",
+        "phpunit/phpcov": "~2.0",
+        "phpunit/phpunit": "~4.3",
+        "satooshi/php-coveralls": "*@dev"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "WePay\\Signer\\": "src/Signer/",
+            "WePay\\Tests\\Signer\\": "tests/Signer/"
+        }
+    }
+}
