@@ -44,6 +44,11 @@ class SignerTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(self::DEFAULT_CLIENT_SECRET, $this->readAttribute($this->signer, 'client_secret'));
     }
 
+    public function testGetSelfKey()
+    {
+        $this->assertEquals('WePay', $this->signer->getSelfKey());
+    }
+
     public function testGetClientKey()
     {
         $this->assertEquals(self::DEFAULT_CLIENT_ID, $this->signer->getClientId());
