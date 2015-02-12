@@ -1,6 +1,6 @@
 {
     "name": "wepay/signer",
-    "description": "Cryptographically sign data to prevent tampering for SSO.",
+    "description": "Cryptographically sign WePay data to prevent tampering.",
     "keywords": ["crypto","signing","sha256"],
     "type": "library",
     "license": "Apache-2.0",
@@ -19,7 +19,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/wepay/sso-php/issues"
+        "issues": "https://github.com/wepay/signer/issues"
     },
     "require": {
         "php": ">=5.4.0",
