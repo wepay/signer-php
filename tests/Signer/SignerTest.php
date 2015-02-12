@@ -19,7 +19,7 @@ class SignerTest extends PHPUnit_Framework_TestCase
     const DEFAULT_CLIENT_SECRET = 'O5j@pG@Jt%AzyiJTEfo!£LS';
 
     /** @var string */
-    const DEFAULT_SIGNATURE = '1f3bac3e0ecdc2c613ece06c6c6d8646f83f6d985c287a7a4a23f4b936379450c0cdc9b1784951576b3d412f37f4578a755e56abdbf637359290e344ff31d1de';
+    const DEFAULT_SIGNATURE = 'f083db795a34994a173435f73657e2c5cc2e318daae6bc15df8d76a6edd5b0fb4ce442f1f85a66d0e20ebc5e2f57eb3334d12f55661f1bad20953c05fbc2db16';
 
     /** @var string */
     const DEFAULT_PAGE = 'https://wepay.com/account/12345';
