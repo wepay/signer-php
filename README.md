@@ -1,18 +1,18 @@
 # WePay Signer for PHP
 
-[![Source](http://img.shields.io/badge/source-wepay/sso-php-blue.svg?style=flat-square)](https://github.com/wepay/sso-php)
-[![Latest Stable Version](http://img.shields.io/packagist/v/wepay/sso-php.svg?style=flat-square)](https://packagist.org/packages/wepay/sso-php)
-[![Total Downloads](http://img.shields.io/packagist/dt/wepay/sso-php.svg?style=flat-square)](https://packagist.org/packages/wepay/sso-php)
-[![Open Issues](http://img.shields.io/github/issues/wepay/sso-php.svg?style=flat-square)](https://github.com/wepay/sso-php/issues)
-[![Build Status](http://img.shields.io/travis/wepay/sso-php/master.svg?style=flat-square)](https://travis-ci.org/wepay/sso-php)
-[![Coverage Status](http://img.shields.io/coveralls/wepay/sso-php/master.svg?style=flat-square)](https://coveralls.io/r/wepay/sso-php?branch=master)
-[![Code Climate](http://img.shields.io/codeclimate/github/wepay/sso-php.svg?style=flat-square)](https://codeclimate.com/github/wepay/sso-php)
-[![Code Quality](http://img.shields.io/scrutinizer/g/wepay/sso-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/wepay/sso-php)
+[![Source](http://img.shields.io/badge/source-wepay/signer-blue.svg?style=flat-square)](https://github.com/wepay/signer)
+[![Latest Stable Version](http://img.shields.io/packagist/v/wepay/signer.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
+[![Total Downloads](http://img.shields.io/packagist/dt/wepay/signer.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
+[![Open Issues](http://img.shields.io/github/issues/wepay/signer.svg?style=flat-square)](https://github.com/wepay/signer/issues)
+[![Build Status](http://img.shields.io/travis/wepay/signer/master.svg?style=flat-square)](https://travis-ci.org/wepay/signer)
+[![Coverage Status](http://img.shields.io/coveralls/wepay/signer/master.svg?style=flat-square)](https://coveralls.io/r/wepay/signer?branch=master)
+[![Code Climate](http://img.shields.io/codeclimate/github/wepay/signer.svg?style=flat-square)](https://codeclimate.com/github/wepay/signer)
+[![Code Quality](http://img.shields.io/scrutinizer/g/wepay/signer.svg?style=flat-square)](https://scrutinizer-ci.com/g/wepay/signer)
 [![Dependency Status](https://www.versioneye.com/user/projects/!!!!!!!/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/!!!!!!!)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/!!!!!!!/mini.png)](https://insight.sensiolabs.com/projects/!!!!!!!)
-[![HHVM Support](http://img.shields.io/hhvm/wepay/sso-php.svg?style=flat-square)](https://hhvm.com)
-[![Documentation Status](https://readthedocs.org/projects/wepay-sso-php/badge/?version=master&style=flat-square)](https://readthedocs.org/projects/shared-utilities/?badge=master)
-[![License](http://img.shields.io/packagist/l/wepay/sso-php-blue.svg?style=flat-square)](https://packagist.org/packages/wepay/sso-php)
+[![HHVM Support](http://img.shields.io/hhvm/wepay/signer.svg?style=flat-square)](https://hhvm.com)
+[![Documentation Status](https://readthedocs.org/projects/wepay-signer/badge/?version=master&style=flat-square)](https://readthedocs.org/projects/shared-utilities/?badge=master)
+[![License](http://img.shields.io/packagist/l/wepay/signer-blue.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
 [![Author](http://img.shields.io/badge/author-@skyzyx-blue.svg?style=flat-square)](https://twitter.com/skyzyx)
 
 This is a thin wrapper around the [skyzyx/signer](https://github.com/skyzyx/signer) package.
@@ -110,7 +110,7 @@ Here's the process for contributing:
 
 * Copyright (c) 2015 [WePay](http://wepay.com).
 
-See also the list of [contributors](/wepay/sso-php/contributors) who participated in this project.
+See also the list of [contributors](/wepay/signer/contributors) who participated in this project.
 
 Licensed for use under the terms of the [Apache 2.0] license.
 
