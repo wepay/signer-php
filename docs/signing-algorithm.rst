@@ -1,8 +1,8 @@
 Signing Algorithm
 =================
 
-Documentation for how to implement your own SSO signer for languages
-where we do not already have an SSO SDK. This implementation is based on
+Documentation for how to implement your own Request Signer for languages
+where we do not already have an Request Signer SDK. This implementation is based on
 a stripped-down version of `AWS Signature
 v4 <http://docs.aws.amazon.com/general/latest/gr/signature-version-4.html>`__,
 and uses `SHA-512 <https://en.wikipedia.org/wiki/SHA-512>`__ for
