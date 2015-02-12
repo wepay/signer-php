@@ -7,14 +7,19 @@
 
 namespace WePay\Signer;
 
+use Psr\Log\LoggerAwareInterface;
+use Psr\Log\LoggerAwareTrait;
 use Skyzyx\Signer\Signer as WrappedSigner;
 use Skyzyx\Signer\SignerInterface;
 
 /**
  * @see Skyzyx\Signer\Signer
  */
-class Signer implements SignerInterface
+class Signer implements SignerInterface, LoggerAwareInterface
 {
+    use LoggerAwareTrait;
+
+
     /**************************************************************************/
     // PROPERTIES
 

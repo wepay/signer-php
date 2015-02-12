@@ -12,7 +12,7 @@ will use it to log ``DEBUG``-level messages.
 
     use Monolog\Logger;
     use Monolog\Handler\StreamHandler;
-    use Skyzyx\Signer\Signer;
+    use WePay\Signer\Signer;
 
     // create a log channel
     $log = new Logger('name');
