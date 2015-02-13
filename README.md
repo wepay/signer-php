@@ -11,7 +11,7 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/54dc5ab6c1bbbd9bd700050e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/54dc5ab6c1bbbd9bd700050e)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/0bd1cdc9-be1b-445c-9fdc-358a57874ee2/mini.png)](https://insight.sensiolabs.com/projects/0bd1cdc9-be1b-445c-9fdc-358a57874ee2)
 [![HHVM Support](http://img.shields.io/hhvm/wepay/signer-php.svg?style=flat-square)](https://hhvm.com)
-[![Documentation Status](https://readthedocs.org/projects/wepay-signer/badge/?version=master&style=flat-square)](http://wepay-signer-php.readthedocs.org)
+[![Documentation Status](https://readthedocs.org/projects/wepay-signer-php/badge/?version=master&style=flat-square)](http://wepay-signer-php.readthedocs.org)
 [![License](http://img.shields.io/packagist/l/wepay/signer-blue.svg?style=flat-square)](https://packagist.org/packages/wepay/signer)
 [![Author](http://img.shields.io/badge/author-@skyzyx-blue.svg?style=flat-square)](https://twitter.com/skyzyx)
 
