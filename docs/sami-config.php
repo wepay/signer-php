@@ -9,7 +9,8 @@ $iterator = Finder::create()
     ->name('*.php')
     ->exclude('tests')
     ->in(dirname(__DIR__) . '/src')
-    // ->in(dirname(__DIR__) . '/vendor')
+    ->in(dirname(__DIR__) . '/vendor/psr')
+    ->in(dirname(__DIR__) . '/vendor/skyzyx/signer/src')
 ;
 
 $repo = dirname(__DIR__);
@@ -20,7 +21,7 @@ $versions = GitVersionCollection::create($repo)
 ;
 
 return new Sami($iterator, array(
-    'theme'                => 'symfony',
+    // 'theme'                => 'symfony',
     'versions'             => $versions,
     'title'                => 'WePay Signer for PHP',
     'build_dir'            => __DIR__.'/api-build/%version%',
