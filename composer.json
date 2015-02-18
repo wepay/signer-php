@@ -30,6 +30,7 @@
         "codeclimate/php-test-reporter": "*@dev",
         "phpunit/phpcov": "~2.0",
         "phpunit/phpunit": "~4.3",
+        "sami/sami": "3.*",
         "satooshi/php-coveralls": "*@dev"
     },
     "config": {
