@@ -11,4 +11,6 @@ contents using `Keybase`_.
 If you’re more familiar with traditional GPG signing, view ``SIGNED.md``
 for the information you need to do the verification.
 
+https://github.com/wepay/signer-php/blob/master/SIGNED.md
+
 .. _Keybase: https://keybase.io
