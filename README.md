@@ -30,6 +30,7 @@ $client_secret = 'your_client_secret';
 
 $signer = new Signer($client_id, $client_secret);
 $signature = $signer->sign([
+    'token'        => $your_token,
     'page'         => $wepay_page_to_visit,
     'redirect_uri' => $partner_page_to_return_to,
 ]);
@@ -42,6 +43,7 @@ $signature = wordwrap($signature, 64, "\n", true);
 ### Generate all of the query string parameters for the request
 ```php
 $querystring = $signer->generateQueryStringParams([
+    'token'        => $your_token,
     'page'         => $wepay_page_to_visit,
     'redirect_uri' => $partner_page_to_return_to,
 ]);
@@ -87,6 +89,17 @@ repository.
 ```bash
 bin/sami.php update docs/sami-config.php -v
 ```
+
+
+## GPG Signing
+
+Each release (i.e., git tag) is GPG-signed. You can easily verify the contents using [Keybase](https://keybase.io).
+
+```bash
+keybase dir verify
+```
+
+If you're more familiar with traditional GPG signing, view `SIGNED.md` for the information you need to do the verification.
 
 
 ## Contributing
