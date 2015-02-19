@@ -28,11 +28,16 @@ User guide
     :maxdepth: 2
 
    installation
-   testing
-   debug-logging
-   api-reference
    usage
    signing-algorithm
+   debug-logging
+   api-reference
+   testing
+   gpg
+   contributing
+   copyright
+   coding-standards
+
 
 Coding Standards
 ----------------

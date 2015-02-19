@@ -13,6 +13,7 @@ Generate a signature
 
     $signer = new Signer($client_id, $client_secret);
     $signature = $signer->sign([
+        'token'        => $your_token,
         'page'         => $wepay_page_to_visit,
         'redirect_uri' => $partner_page_to_return_to,
     ]);
@@ -27,6 +28,7 @@ Generate all of the query string parameters for the request
 .. code:: php
 
     $querystring = $signer->generateQueryStringParams([
+        'token'        => $your_token,
         'page'         => $wepay_page_to_visit,
         'redirect_uri' => $partner_page_to_return_to,
     ]);
