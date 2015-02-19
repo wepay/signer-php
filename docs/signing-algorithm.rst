@@ -35,6 +35,7 @@ Source:
     key_value_pairs = [
         "client_id": client_id,
         "client_secret": client_secret,
+        "token": your_token,
         "page": wepay_page_to_visit,
         "redirect_uri": partner_page_to_return_to,
     ]
