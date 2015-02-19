@@ -19,4 +19,5 @@ This is a thin wrapper around the [skyzyx/signer](https://github.com/skyzyx/sign
 
 This project uses [Semantic Versioning](http://semver.org) for managing backwards-compatibility.
 
-More documentation can be found at <http://wepay-signer-php.readthedocs.org>.
+* [Documentation](http://wepay-signer-php.readthedocs.org)
+* [API Reference](https://wepay.github.io/signer-php/)
