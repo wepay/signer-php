@@ -39,11 +39,6 @@ User guide
    coding-standards
 
 
-Coding Standards
-----------------
-
--  https://github.com/skyzyx/php-coding-standards
-
 .. |Source| image:: http://img.shields.io/badge/source-wepay/signer–php-blue.svg?style=flat-square
    :target: https://github.com/wepay/signer-php
 .. |Latest Stable Version| image:: http://img.shields.io/packagist/v/wepay/signer.svg?style=flat-square
