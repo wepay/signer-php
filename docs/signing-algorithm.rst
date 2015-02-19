@@ -70,8 +70,9 @@ Example:
     client_secret={client_secret}
     page={wepay_page_to_visit}
     redirect_uri={partner_page_to_return_to}
+    token={your_token}
 
-    client_id;client_secret;page;redirect_uri
+    client_id;client_secret;page;redirect_uri;token
 
 string\_to\_sign
 ----------------
