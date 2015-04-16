@@ -119,7 +119,7 @@ class Signer implements SignerInterface, LoggerAwareInterface
         $token = $this->sign($payload);
 
         $payload['client_id'] = $this->getClientId();
-        $payload['token']     = $token;
+        $payload['stoken']    = $token;
 
         ksort($payload);
 
