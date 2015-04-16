@@ -13,13 +13,13 @@ use WePay\Signer\Signer;
 class SignerTest extends PHPUnit_Framework_TestCase
 {
     /** @var string */
-    const DEFAULT_CLIENT_ID = 'k3qDQy0Tr56v1ceo';
+    const DEFAULT_CLIENT_ID = '12173158495';
 
     /** @var string */
-    const DEFAULT_CLIENT_SECRET = 'O5j@pG@Jt%AzyiJTEfo!£LS';
+    const DEFAULT_CLIENT_SECRET = '1594122c5c36f438f8ba';
 
     /** @var string */
-    const DEFAULT_SIGNATURE = 'f083db795a34994a173435f73657e2c5cc2e318daae6bc15df8d76a6edd5b0fb4ce442f1f85a66d0e20ebc5e2f57eb3334d12f55661f1bad20953c05fbc2db16';
+    const DEFAULT_SIGNATURE = 'c2de34c15cd76f797cf80781747da3874639a827a4cb79dcd862cc17b35cf2e2c721ea7d49ab9f60590d637ae0f51fd4ed8ddb551b922e0cd7e35a13b86de360';
 
     /** @var string */
     const DEFAULT_PAGE = 'https://wepay.com/account/12345';
@@ -28,7 +28,10 @@ class SignerTest extends PHPUnit_Framework_TestCase
     const DEFAULT_REDIRECT_URI = 'https://partnersite.com/home';
 
     /** @var string */
-    const DEFAULT_QS = 'client_id=%s&page=%s&redirect_uri=%s&token=%s';
+    const DEFAULT_QS = 'client_id=%s&page=%s&redirect_uri=%s&stoken=%s&token=%s';
+
+    /** @var string */
+    const DEFAULT_TOKEN = '10c936ca-5e7c-508b-9e60-b211c20be9bc';
 
     /** @var \WePay\Signer\Signer */
     public $signer;
@@ -64,6 +67,7 @@ class SignerTest extends PHPUnit_Framework_TestCase
         $signature = $this->signer->sign([
             'page'         => 'https://wepay.com/account/12345',
             'redirect_uri' => 'https://partnersite.com/home',
+            'token'        =>  self::DEFAULT_TOKEN,
         ]);
 
         $this->assertEquals(self::DEFAULT_SIGNATURE, $signature);
@@ -74,6 +78,7 @@ class SignerTest extends PHPUnit_Framework_TestCase
         $querystring = $this->signer->generateQueryStringParams([
             'page'         => 'https://wepay.com/account/12345',
             'redirect_uri' => 'https://partnersite.com/home',
+            'token'        =>  self::DEFAULT_TOKEN,
         ]);
 
         $this->assertEquals(
@@ -82,7 +87,8 @@ class SignerTest extends PHPUnit_Framework_TestCase
                 self::DEFAULT_CLIENT_ID,
                 self::DEFAULT_PAGE,
                 self::DEFAULT_REDIRECT_URI,
-                self::DEFAULT_SIGNATURE
+                self::DEFAULT_SIGNATURE,
+                self::DEFAULT_TOKEN
             ),
             $querystring
         );
