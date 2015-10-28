@@ -1,5 +1,5 @@
-Deploying
-=========
+Deploying (WePay team)
+======================
 
 1. The ``Makefile`` (yes, ``Makefile``) has a series of commands to
    simplify the development and deployment process.

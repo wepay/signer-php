@@ -41,7 +41,7 @@ Read the docs: http://wepay-signer-php.readthedocs.org/en/master/debug-logging.h
 
 ## Deploying (WePay team)
 
-Read the docs:
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/deploying.html
 
 ## Contributing
 
