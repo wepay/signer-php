@@ -2,13 +2,13 @@
 ```
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAABCgAGBQJWMUaHAAoJEP9Zal5eC0aCFEkH/3HAv71GXa2CcN7KjxxahKoj
-TP+YAjeSbuKzUiNMQpjSVofbi4nBgomChCZpGtVrLPT7SVmZ4WFgEw+nBcmYZ/4V
-BoSCVRJU7wRPRJwzCl6xZ+AkmLinaaSV4bAFxPPdDANbt9QT9gIxA0wkv4c9CNnC
-HQpKKh0yoVQEZ3ex7WAtmVpsWM0pbXsL4bKXppHPC46BnTFlekKX+ueX2VBOopKd
-Ir9eQ9qlbZfOVuKnCZmMPFaKaVP5VlyUOAvNg0vzwi0EuzHATY57YOhv/8TaGweE
-k2Xn3sUiOB4K+VzDc6y79VyLVW0fObADyxbb07VifKgfEwBaZ4afCisz4dYTHnw=
-=XjZe
+iQEcBAABCgAGBQJWMUdZAAoJEP9Zal5eC0aC4M4H+QGnkvBSnkHHMd7TsRB61eUh
+N4UaqCpmmm15El+y2jIXXuN/azysgCJLkAXIHFFaKUHLy9KYcVKi5WP9cwd2ziVQ
+0VHVESSbeiUtaAC2KVbQZtYebL75SpR0E+0Lwb7nU+YrgpYuHq/rs/onsN7WTmrR
+FRMnpcgU6gUkJdAyFPBiKrRLyVSdWeTW6esUcTxDG4Vo2vZzNnWhZMq/H2nQyuBa
+gc1yqHOvmE5hV01YmW32SYMGa0Z5vuYj2CKrlwpyjfdmYZPV7Vd3u1IlmHBri7ry
+veEXr6O68DdRCzhbOeQO+XZjs+1kJRVZqpOtOK20AaFQZf4+IJLTXlwbqfTDfzA=
+=+OGJ
 -----END PGP SIGNATURE-----
 
 ```
@@ -45,7 +45,7 @@ size  exec  file                       contents
 268             testing.rst            dacf8f543ed651f62d2c36837403fe806b7fc4af133e87d8e5423ba3dffa16f3
 1174            usage.rst              bd602d05b99e7706ffe6d632424b39faa0a26ec071c7da1cf9d61f131bb7fffd
 9202          LICENSE.md               d86082393c045c6ee8fcef26a1680e31c72b2afb07f687ac337325747f341585
-1713          Makefile                 2f198af6b37cf8e45c2eca4595a24b49d5a291d4af2b74f9d66ed7c7667431df
+1727          Makefile                 5f87d1bb5d0465ce76496ae9e244e5e065df7039bf5be286a3e7e341ff9a4e34
 1689          phpmd.xml.dist           cec5d7d165acbc22340cac7c1177c24ac62c9a634024d0a68700c4db918b33b3
 1311          phpunit.xml.dist         f19fe3e5b139c0b369ec6d96ba618929f390b0e511a9ecdf93ea43aba0aedab5
 2334          README.md                dff5d64118dd110845d02882db500d14f8714f74e0a0af4105807aac951efd34
@@ -56,7 +56,7 @@ size  exec  file                       contents
 141             bootstrap.php          e09df3d25de8fb6c9f4f89e7275a0f470899189593c33cbd3412411bd94e2992
                 Signer/                                                                                
 2796              SignerTest.php       63254b749f72e228ac11a40d9c271477a0d9388f4b4146bfc3a0b1cb7d536e03
-6             VERSION                  cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989
+5             VERSION                  83d0c4f9ddc089ab58e322e298b6190f2bf591dc225ff5cdd77d05e6a8420619
 ```
 
 #### Ignore
