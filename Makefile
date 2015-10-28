@@ -7,7 +7,6 @@ all:
 install:
 	composer self-update
 	composer install -o
-	composer update -o
 
 .PHONY: test
 test:
