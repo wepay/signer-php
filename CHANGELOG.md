@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+* TBD
+
 ## 1.1.2 - 2015-10-28
 
 * Added more documentation.
