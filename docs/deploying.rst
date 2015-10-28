@@ -12,7 +12,7 @@ Updating the CHANGELOG
 Make sure that the ``CHANGELOG.md`` is human-friendly. See
 http://keepachangelog.com if you don’t know how.
 
-``make``
+make
 --------
 
 Running ``make`` by itself will show you a list of available sub-commands.
@@ -28,7 +28,7 @@ Running ``make`` by itself will show you a list of available sub-commands.
     test
     version
 
-``make pushdocs``
+make pushdocs
 -----------------
 
 You will need to have write-access to the ``wepay/signer-php`` repository on
@@ -45,16 +45,16 @@ Then you can run:
 
 You can view your changes at https://wepay.github.io/signer-php/.
 
-``make version``
+make version
 ----------------
 
 This allows you to set the version number for the next release.
 
-``make tag``
+make tag
 ------------
 
 You will need to have a `Keybase`_ account first, including setting-up the
-```keybase`` CLI tool`_.
+`Keybase CLI tool`_.
 
 Then you can run:
 
@@ -81,4 +81,4 @@ Drafting a GitHub release
 
 .. _Chag: https://github.com/mtdowling/chag
 .. _Keybase: https://keybase.io
-.. _``keybase`` CLI tool: https://keybase.io/docs/command_line/prerequisites
+.. _Keybase CLI tool: https://keybase.io/docs/command_line/prerequisites

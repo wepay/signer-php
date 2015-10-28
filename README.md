@@ -29,14 +29,28 @@ This project uses [Semantic Versioning](http://semver.org) for managing backward
 
 ## Installation
 
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/installation.html
+
 ## Testing
+
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/testing.html
 
 ## Debug Logging
 
-## Deploying
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/debug-logging.html
+
+## Deploying (WePay team)
+
+Read the docs:
 
 ## Contributing
 
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/contributing.html
+
 ## Authors, Copyright & Licensing
 
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/copyright.html
+
 ## Coding Standards
+
+Read the docs: http://wepay-signer-php.readthedocs.org/en/master/coding-standards.html
