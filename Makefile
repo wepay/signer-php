@@ -53,7 +53,6 @@ tag:
 	git add .
 	git commit -a -m "Cryptographically signed the $$(cat ./VERSION) release."
 	chag tag
-	# git tag $$(cat ./VERSION)
 
 #-------------------------------------------------------------------------------
 
