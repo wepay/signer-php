@@ -5,16 +5,18 @@ all:
 
 .PHONY: install
 install:
-	composer install
+	composer self-update
+	composer install -o
+	composer update -o
 
 .PHONY: test
-test: install
+test:
 	php bin/phpunit
 
 #-------------------------------------------------------------------------------
 
 .PHONY: docs
-docs: install
+docs:
 	php bin/sami.php update docs/sami-config.php
 
 .PHONY: pushdocs
@@ -36,9 +38,9 @@ tag:
 	@read -p "Press any key to continue, or press Control+C to cancel. " x;
 
 	keybase dir sign
-	# git add .
-	# git commit -a -m "Cryptographically signed the $$(cat ./VERSION) release."
-	# git tag $$(cat ./VERSION)
+	git add .
+	git commit -a -m "Cryptographically signed the $$(cat ./VERSION) release."
+	git tag $$(cat ./VERSION)
 
 #-------------------------------------------------------------------------------
 
@@ -47,10 +49,3 @@ version:
 	@echo "Current version: $$(cat ./VERSION)"
 	@read -p "Enter new version number: " nv; \
 	printf "$$nv" > ./VERSION
-
-#-------------------------------------------------------------------------------
-
-.PHONY: clean
-clean:
-	rm *.gem
-	rm *.gemspec
