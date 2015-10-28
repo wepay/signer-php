@@ -16,7 +16,7 @@ test:
 
 .PHONY: docs
 docs:
-	php bin/sami.php update docs/sami-config.php
+	php bin/sami.php update docs/sami-config.php -v
 
 .PHONY: pushdocs
 pushdocs: docs

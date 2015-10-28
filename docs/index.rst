@@ -37,6 +37,7 @@ User guide
    contributing
    copyright
    coding-standards
+   deploying
 
 
 .. |Source| image:: http://img.shields.io/badge/source-wepay/signer–php-blue.svg?style=flat-square

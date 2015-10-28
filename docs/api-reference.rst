@@ -7,8 +7,8 @@ repository.
 
 .. code:: bash
 
-    bin/sami.php update docs/sami-config.php -v
+    make docs
 
 You can view the API reference at https://wepay.github.io/signer-php/.
 
-.. _Sami: http://phpdoc.org
+.. _Sami: https://github.com/FriendsOfPHP/Sami
