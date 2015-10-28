@@ -2,13 +2,13 @@
 ```
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAABCgAGBQJWMUdZAAoJEP9Zal5eC0aC4M4H+QGnkvBSnkHHMd7TsRB61eUh
-N4UaqCpmmm15El+y2jIXXuN/azysgCJLkAXIHFFaKUHLy9KYcVKi5WP9cwd2ziVQ
-0VHVESSbeiUtaAC2KVbQZtYebL75SpR0E+0Lwb7nU+YrgpYuHq/rs/onsN7WTmrR
-FRMnpcgU6gUkJdAyFPBiKrRLyVSdWeTW6esUcTxDG4Vo2vZzNnWhZMq/H2nQyuBa
-gc1yqHOvmE5hV01YmW32SYMGa0Z5vuYj2CKrlwpyjfdmYZPV7Vd3u1IlmHBri7ry
-veEXr6O68DdRCzhbOeQO+XZjs+1kJRVZqpOtOK20AaFQZf4+IJLTXlwbqfTDfzA=
-=+OGJ
+iQEcBAABCgAGBQJWMU/kAAoJEP9Zal5eC0aCQOYH/Aq0XYLyypPAB5mwRgxgHo5L
+gEA0r0Ur+RMNC0eMyuIv5wBc/yUIFfLRsaPKU3zF5rQBw6NTpHdDWeVv5aBfN45W
+Ppmzsj3UP7ipwYG5BGjg7oIeX5d6/I30tdd2JnO6+HzlgvgE6NJuf04Pje0FS7CY
+vizRKMW7TwRxI+dDTNe+LCoU0IsLjvH7+jpr3BKKiTWMizKD/3GvKp6qE28XQEqa
+QXRhVMS5Ou8z/VVUnHgwRiYCVPUCLBcSCiw1nUc+oyTz8PBQ1olW1/Z9ugwtcGbw
+WpsiXj4lRCp+9n6w0QfYYE1YgW5E9cui1Ve02tbcqjXS/DLYcHtWHb2Krt1pyTw=
+=G6x6
 -----END PGP SIGNATURE-----
 
 ```
@@ -26,6 +26,7 @@ size  exec  file                       contents
 130           .gitignore               24d6c7d562341af10eca841e50f2f4d6799935efecdd47ec24896ce6ec5b7614
 6747          .scrutinizer.yml         bf3af3aad68cbcef1c2899b3c9b181abc108d3561eff4546b96486ea9fd60432
 1375          .travis.yml              623d4196c94be73a10da60ca4c724a7120b6f427fc5f3a63ca0995d3a8417101
+505           CHANGELOG.md             5d75ee0a622cc2f90810b99c579b22e68c3c9d2cabb600ed5c0c9e0deabe5914
 1169          composer.json            f965d8ff63ce1ff75d6dc2b4ef1c747b5b6966a8f394fe9593bbca19f4a86909
               docs/                                                                                    
                 _templates/                                                                            
@@ -45,10 +46,10 @@ size  exec  file                       contents
 268             testing.rst            dacf8f543ed651f62d2c36837403fe806b7fc4af133e87d8e5423ba3dffa16f3
 1174            usage.rst              bd602d05b99e7706ffe6d632424b39faa0a26ec071c7da1cf9d61f131bb7fffd
 9202          LICENSE.md               d86082393c045c6ee8fcef26a1680e31c72b2afb07f687ac337325747f341585
-1727          Makefile                 5f87d1bb5d0465ce76496ae9e244e5e065df7039bf5be286a3e7e341ff9a4e34
+2097          Makefile                 25f9dee8484a2132a502acd9fd0614025a1478d7900ed6b53c635f53a2e3dad5
 1689          phpmd.xml.dist           cec5d7d165acbc22340cac7c1177c24ac62c9a634024d0a68700c4db918b33b3
 1311          phpunit.xml.dist         f19fe3e5b139c0b369ec6d96ba618929f390b0e511a9ecdf93ea43aba0aedab5
-2334          README.md                dff5d64118dd110845d02882db500d14f8714f74e0a0af4105807aac951efd34
+6964          README.md                0f23ee11cb4f5b9a402288242d915fabcf94f9aed1dcc0450b62bbf01c4b5f34
               src/                                                                                     
                 Signer/                                                                                
 3446              Signer.php           a66b5725a3c78fc2c7a2b75d03157958f88644c78d7b1a78eaff07ea4ce33d32
