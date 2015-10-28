@@ -119,7 +119,9 @@ make docs
 
 
 ## Deploying
-The `Makefile` (yes, `Makefile`) has a series of commands to simplify the development and deployment process.
+
+1. The `Makefile` (yes, `Makefile`) has a series of commands to simplify the development and deployment process.
+1. Also install [Chag](https://github.com/mtdowling/chag). This is used for managing the CHANGELOG and annotating the Git release correctly.
 
 ### `make`
 
