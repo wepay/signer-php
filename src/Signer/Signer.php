@@ -123,11 +123,6 @@ class Signer implements SignerInterface, LoggerAwareInterface
 
         ksort($payload);
 
-        $qsa = [];
-        foreach ($payload as $k => $v) {
-            $qsa[] = sprintf('%s=%s', $k, $v);
-        }
-
-        return implode('&', $qsa);
+        return http_build_query($payload);
     }
 }
