@@ -23,13 +23,12 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "ext-mcrypt": "*",
         "skyzyx/signer": "^1.0"
     },
     "require-dev": {
         "codeclimate/php-test-reporter": "*@dev",
-        "phpunit/phpcov": "~2.0",
-        "phpunit/phpunit": "~4.3",
+        "phpunit/phpcov": "^2.0|^3.0",
+        "phpunit/phpunit": "^4.3|^5.0",
         "sami/sami": "3.*",
         "satooshi/php-coveralls": "*@dev"
     },
