@@ -28,6 +28,7 @@
                                             <option value="../../../1.0.0/index.html" selected>1.0.0</option>
                                             <option value="../../../1.1.0/index.html">1.1.0</option>
                                             <option value="../../../1.1.1/index.html">1.1.1</option>
+                                            <option value="../../../1.1.2/index.html">1.1.2</option>
                                             <option value="../../../master/index.html">master branch</option>
                                     </select>
             </form>
@@ -80,13 +81,19 @@
                 <div id="page-content">
                 
     <div class="page-header">
-        <h1>Signer</h1>
+        <h1>
+            Signer
+                
+        </h1>
     </div>
 
     <p>    class
     <strong>Signer</strong>        implements
         <a href="../../Skyzyx/Signer/SignerInterface.html"><abbr title="Skyzyx\Signer\SignerInterface">SignerInterface</abbr></a>, <a href="../../Psr/Log/LoggerAwareInterface.html"><abbr title="Psr\Log\LoggerAwareInterface">LoggerAwareInterface</abbr></a>
 </p>
+
+        
+    
 
             <div class="description">
             <p>The Signer class is designed for those who are signing data on behalf of a public-private keypair.</p>            <p>In principle, the "client party" has public key (i.e., <code>client_id</code>) has a matching private key
@@ -106,8 +113,9 @@ something like try to use the same public-private keypair independently of a sig
     <div class="container-fluid underlined">
                     <div class="row">
                 <div class="col-md-6">
-                                            <a href="../../Psr/Log/LoggerAwareTrait.html"><abbr title="Psr\Log\LoggerAwareTrait">Psr\Log\LoggerAwareTrait</abbr></a>
-                                    </div>
+                                            <a href="../../Psr/Log/LoggerAwareTrait.html"><abbr title="Psr\Log\LoggerAwareTrait">LoggerAwareTrait</abbr></a>
+                                            
+                </div>
                 <div class="col-md-6">
                     Basic Implementation of LoggerAwareInterface.
                 </div>
@@ -122,67 +130,60 @@ something like try to use the same public-private keypair independently of a sig
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_setLogger">setLogger</a>(
-    <abbr title="Psr\Log\Psr\Log\LoggerInterface">LoggerInterface</abbr> $logger)
+                    <a href="#method_setLogger">setLogger</a>(<a href="../../Psr/Log/LoggerInterface.html"><abbr title="Psr\Log\LoggerInterface">LoggerInterface</abbr></a> $logger)
+        
                                             <p>Sets a logger.</p>                </div>
-                <div class="col-md-2"><small>from&nbsp;
-    <a href="../../Psr/Log/LoggerAwareTrait.html#method_setLogger"><abbr title="Psr\Log\LoggerAwareTrait">LoggerAwareTrait</abbr></a></small></div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Psr/Log/LoggerAwareTrait.html#method_setLogger"><abbr title="Psr\Log\LoggerAwareTrait">LoggerAwareTrait</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method___construct">__construct</a>(
-    string $self_key, 
-    string $client_id, 
-    string $client_secret, 
-    string $hash_algo = &#039;sha512&#039;)
+                    <a href="#method___construct">__construct</a>(string $self_key, string $client_id, string $client_secret, string $hash_algo = &#039;sha512&#039;)
+        
                                             <p>Constructs a new instance of this class.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
-    string
+                    string
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getSelfKey">getSelfKey</a>()
+        
                                             <p>Gets the self key that was set in the constructor.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
-    string
+                    string
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getClientId">getClientId</a>()
+        
                                             <p>Gets the client key that was set in the constructor.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
-    string
+                    string
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getClientSecret">getClientSecret</a>()
+        
                                             <p>Gets the client secret that was set in the constructor.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
-    string
+                    string
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_sign">sign</a>(
-    array $payload)
+                    <a href="#method_sign">sign</a>(array $payload)
+        
                                             <p>Sign the payload to produce a signature for its contents.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
@@ -194,14 +195,15 @@ something like try to use the same public-private keypair independently of a sig
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method_setLogger">
-        <div class="location">in 
-    <a href="../../Psr/Log/LoggerAwareTrait.html#method_setLogger"><abbr title="Psr\Log\LoggerAwareTrait">LoggerAwareTrait</abbr></a> at line 18</div>
+        <div class="location">in <a href="../../Psr/Log/LoggerAwareTrait.html#method_setLogger"><abbr title="Psr\Log\LoggerAwareTrait">LoggerAwareTrait</abbr></a> at line         line 18</div>
         <code>                    
-    
-    <strong>setLogger</strong>(
-    <abbr title="Psr\Log\Psr\Log\LoggerInterface">LoggerInterface</abbr> $logger)</code>
+    <strong>setLogger</strong>(<a href="../../Psr/Log/LoggerInterface.html"><abbr title="Psr\Log\LoggerInterface">LoggerInterface</abbr></a> $logger)
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>Sets a logger.</p>                                </div>
                 <div class="tags">
@@ -209,11 +211,9 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
                     <tr>
-                <td>
-    <abbr title="Psr\Log\Psr\Log\LoggerInterface">LoggerInterface</abbr></td>
+                <td><a href="../../Psr/Log/LoggerInterface.html"><abbr title="Psr\Log\LoggerInterface">LoggerInterface</abbr></a></td>
                 <td>$logger</td>
-                <td>
-</td>
+                <td></td>
             </tr>
             </table>
 
@@ -226,16 +226,15 @@ something like try to use the same public-private keypair independently of a sig
             </div>
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at line 75</div>
+        <div class="location">at line         line 75</div>
         <code>                    
-    
-    <strong>__construct</strong>(
-    string $self_key, 
-    string $client_id, 
-    string $client_secret, 
-    string $hash_algo = &#039;sha512&#039;)</code>
+    <strong>__construct</strong>(string $self_key, string $client_id, string $client_secret, string $hash_algo = &#039;sha512&#039;)
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>Constructs a new instance of this class.</p>                                </div>
                 <div class="tags">
@@ -243,30 +242,26 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
                     <tr>
-                <td>
-    string</td>
+                <td>string</td>
                 <td>$self_key</td>
                 <td>A string which identifies the signing party and adds additional entropy.</td>
             </tr>
                     <tr>
-                <td>
-    string</td>
+                <td>string</td>
                 <td>$client_id</td>
                 <td>A string which is the public portion of the keypair identifying the client party.
                              The pairing of the public and private portions of the keypair should only be known
                              to the client party and the signing party.</td>
             </tr>
                     <tr>
-                <td>
-    string</td>
+                <td>string</td>
                 <td>$client_secret</td>
                 <td>A string which is the private portion of the keypair identifying the client party.
                              The pairing of the public and private portions of the keypair should only be known
                              to the client party and the signing party.</td>
             </tr>
                     <tr>
-                <td>
-    string</td>
+                <td>string</td>
                 <td>$hash_algo</td>
                 <td>The hash algorithm to use for signing. Run <code>hash_algos()</code> to see what's supported.
                              The default value is <code>sha512</code>.</td>
@@ -291,12 +286,15 @@ something like try to use the same public-private keypair independently of a sig
             </div>
                     <div class="method-item">
                     <h3 id="method_getSelfKey">
-        <div class="location">at line 87</div>
-        <code>                    
-    string
-    <strong>getSelfKey</strong>()</code>
+        <div class="location">at line         line 87</div>
+        <code>                    string
+    <strong>getSelfKey</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>Gets the self key that was set in the constructor.</p>                                </div>
                 <div class="tags">
@@ -305,8 +303,7 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
         <tr>
-            <td>
-    string</td>
+            <td>string</td>
             <td>The self key.</td>
         </tr>
     </table>
@@ -319,12 +316,15 @@ something like try to use the same public-private keypair independently of a sig
             </div>
                     <div class="method-item">
                     <h3 id="method_getClientId">
-        <div class="location">at line 96</div>
-        <code>                    
-    string
-    <strong>getClientId</strong>()</code>
+        <div class="location">at line         line 96</div>
+        <code>                    string
+    <strong>getClientId</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>Gets the client key that was set in the constructor.</p>                                </div>
                 <div class="tags">
@@ -333,8 +333,7 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
         <tr>
-            <td>
-    string</td>
+            <td>string</td>
             <td>The client key.</td>
         </tr>
     </table>
@@ -347,12 +346,15 @@ something like try to use the same public-private keypair independently of a sig
             </div>
                     <div class="method-item">
                     <h3 id="method_getClientSecret">
-        <div class="location">at line 105</div>
-        <code>                    
-    string
-    <strong>getClientSecret</strong>()</code>
+        <div class="location">at line         line 105</div>
+        <code>                    string
+    <strong>getClientSecret</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>Gets the client secret that was set in the constructor.</p>                                </div>
                 <div class="tags">
@@ -361,8 +363,7 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
         <tr>
-            <td>
-    string</td>
+            <td>string</td>
             <td>The client secret.</td>
         </tr>
     </table>
@@ -375,13 +376,15 @@ something like try to use the same public-private keypair independently of a sig
             </div>
                     <div class="method-item">
                     <h3 id="method_sign">
-        <div class="location">at line 114</div>
-        <code>                    
-    string
-    <strong>sign</strong>(
-    array $payload)</code>
+        <div class="location">at line         line 114</div>
+        <code>                    string
+    <strong>sign</strong>(array $payload)
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>Sign the payload to produce a signature for its contents.</p>                                </div>
                 <div class="tags">
@@ -389,8 +392,7 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
                     <tr>
-                <td>
-    array</td>
+                <td>array</td>
                 <td>$payload</td>
                 <td>The data to generate a signature for.</td>
             </tr>
@@ -401,8 +403,7 @@ something like try to use the same public-private keypair independently of a sig
 
                     <table class="table table-condensed">
         <tr>
-            <td>
-    string</td>
+            <td>string</td>
             <td>The signature for the payload contents.</td>
         </tr>
     </table>

@@ -28,6 +28,7 @@
                                             <option value="../../../../1.0.0/index.html" selected>1.0.0</option>
                                             <option value="../../../../1.1.0/index.html">1.1.0</option>
                                             <option value="../../../../1.1.1/index.html">1.1.1</option>
+                                            <option value="../../../../1.1.2/index.html">1.1.2</option>
                                             <option value="../../../../master/index.html">master branch</option>
                                     </select>
             </form>
@@ -81,12 +82,18 @@
                 <div id="page-content">
                 
     <div class="page-header">
-        <h1>LoggerInterfaceTest</h1>
+        <h1>
+            LoggerInterfaceTest
+                
+        </h1>
     </div>
 
     <p>    class
-    <strong>LoggerInterfaceTest</strong>        extends <abbr title="PHPUnit_Framework_TestCase">PHPUnit_Framework_TestCase</abbr>
+    <strong>LoggerInterfaceTest</strong>        extends PHPUnit_Framework_TestCase
 </p>
+
+        
+    
 
             <div class="description">
             <p>Provides a base test class for ensuring compliance with the LoggerInterface</p>            <p>Implementors can extend the class and implement abstract methods to run this as part of their test suite</p>        </div>
@@ -99,32 +106,32 @@
             <div class="container-fluid underlined">
                     <div class="row">
                 <div class="col-md-2 type">
-                    
-    <abbr title="Psr\Log\Test\LoggerInterface">LoggerInterface</abbr>
+                    <abbr title="Psr\Log\Test\LoggerInterface">LoggerInterface</abbr>
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getLogger">getLogger</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
-    string[]
+                    string[]
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getLogs">getLogs</a>()
+        
                                             <p>This must return the log messages in order with a simple formatting: "<LOG LEVEL> <MESSAGE>"</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testImplements">testImplements</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -132,10 +139,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testLogsAtAllLevels">testLogsAtAllLevels</a>($level, $message)
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -143,10 +150,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_provideLevelsAndMessages">provideLevelsAndMessages</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -154,10 +161,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testThrowsOnInvalidLevel">testThrowsOnInvalidLevel</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -165,10 +172,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testContextReplacement">testContextReplacement</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -176,10 +183,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testObjectCastToString">testObjectCastToString</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -187,10 +194,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testContextCanContainAnything">testContextCanContainAnything</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -198,10 +205,10 @@
                     <div class="row">
                 <div class="col-md-2 type">
                     
-    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_testContextExceptionKeyCanBeExceptionOrOtherValues">testContextExceptionKeyCanBeExceptionOrOtherValues</a>()
+        
                                             <p class="no-description">No description</p>
                                     </div>
                 <div class="col-md-2"></div>
@@ -214,22 +221,23 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method_getLogger">
-        <div class="location">at line 17</div>
-        <code>    abstract                
-    <abbr title="Psr\Log\Test\LoggerInterface">LoggerInterface</abbr>
-    <strong>getLogger</strong>()</code>
+        <div class="location">at line         line 17</div>
+        <code>    abstract                <abbr title="Psr\Log\Test\LoggerInterface">LoggerInterface</abbr>
+    <strong>getLogger</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
                             <h4>Return Value</h4>
 
                     <table class="table table-condensed">
         <tr>
-            <td>
-    <abbr title="Psr\Log\Test\LoggerInterface">LoggerInterface</abbr></td>
-            <td>
-</td>
+            <td><abbr title="Psr\Log\Test\LoggerInterface">LoggerInterface</abbr></td>
+            <td></td>
         </tr>
     </table>
 
@@ -241,12 +249,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getLogs">
-        <div class="location">at line 26</div>
-        <code>    abstract                
-    string[]
-    <strong>getLogs</strong>()</code>
+        <div class="location">at line         line 26</div>
+        <code>    abstract                string[]
+    <strong>getLogs</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                     <div class="method-description">
                                     <p>This must return the log messages in order with a simple formatting: "<LOG LEVEL> <MESSAGE>"</p>                    <p>Example ->error('Foo') would yield "error Foo"</p>            </div>
                 <div class="tags">
@@ -255,10 +266,8 @@
 
                     <table class="table table-condensed">
         <tr>
-            <td>
-    string[]</td>
-            <td>
-</td>
+            <td>string[]</td>
+            <td></td>
         </tr>
     </table>
 
@@ -270,12 +279,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testImplements">
-        <div class="location">at line 28</div>
+        <div class="location">at line         line 28</div>
         <code>                    
-    
-    <strong>testImplements</strong>()</code>
+    <strong>testImplements</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
@@ -286,12 +298,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testLogsAtAllLevels">
-        <div class="location">at line 36</div>
+        <div class="location">at line         line 36</div>
         <code>                    
-    
-    <strong>testLogsAtAllLevels</strong>($level, $message)</code>
+    <strong>testLogsAtAllLevels</strong>($level, $message)
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -299,14 +314,12 @@
                     <tr>
                 <td></td>
                 <td>$level</td>
-                <td>
-</td>
+                <td></td>
             </tr>
                     <tr>
                 <td></td>
                 <td>$message</td>
-                <td>
-</td>
+                <td></td>
             </tr>
             </table>
 
@@ -319,12 +332,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_provideLevelsAndMessages">
-        <div class="location">at line 49</div>
+        <div class="location">at line         line 49</div>
         <code>                    
-    
-    <strong>provideLevelsAndMessages</strong>()</code>
+    <strong>provideLevelsAndMessages</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
@@ -335,12 +351,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testThrowsOnInvalidLevel">
-        <div class="location">at line 66</div>
+        <div class="location">at line         line 66</div>
         <code>                    
-    
-    <strong>testThrowsOnInvalidLevel</strong>()</code>
+    <strong>testThrowsOnInvalidLevel</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
@@ -351,12 +370,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testContextReplacement">
-        <div class="location">at line 72</div>
+        <div class="location">at line         line 72</div>
         <code>                    
-    
-    <strong>testContextReplacement</strong>()</code>
+    <strong>testContextReplacement</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
@@ -367,12 +389,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testObjectCastToString">
-        <div class="location">at line 81</div>
+        <div class="location">at line         line 81</div>
         <code>                    
-    
-    <strong>testObjectCastToString</strong>()</code>
+    <strong>testObjectCastToString</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
@@ -383,12 +408,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testContextCanContainAnything">
-        <div class="location">at line 91</div>
+        <div class="location">at line         line 91</div>
         <code>                    
-    
-    <strong>testContextCanContainAnything</strong>()</code>
+    <strong>testContextCanContainAnything</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
@@ -399,12 +427,15 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_testContextExceptionKeyCanBeExceptionOrOtherValues">
-        <div class="location">at line 107</div>
+        <div class="location">at line         line 107</div>
         <code>                    
-    
-    <strong>testContextExceptionKeyCanBeExceptionOrOtherValues</strong>()</code>
+    <strong>testContextExceptionKeyCanBeExceptionOrOtherValues</strong>()
+        </code>
     </h3>
     <div class="details">
+            
+    
+
                 <div class="tags">
             
             
