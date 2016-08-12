@@ -1,6 +1,9 @@
 Installation
 ============
 
+`Composer`_ is the only method for installation that our team will support.
+Other installation methods may be used at your own risk.
+
 Using `Composer`_:
 
 .. code:: bash

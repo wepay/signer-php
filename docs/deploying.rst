@@ -53,16 +53,11 @@ This allows you to set the version number for the next release.
 make tag
 ------------
 
-You will need to have a `Keybase`_ account first, including setting-up the
-`Keybase CLI tool`_.
-
-Then you can run:
+This will leverage Chag to generate a commit for the tag.
 
 .. code:: bash
 
     make tag
-
-You can view your changes in the ``SIGNED.md`` file.
 
 Drafting a GitHub release
 -------------------------

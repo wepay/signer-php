@@ -33,7 +33,6 @@ User guide
    debug-logging
    api-reference
    testing
-   gpg
    deploying
    contributing
    copyright
