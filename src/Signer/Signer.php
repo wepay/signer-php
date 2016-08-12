@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2015 WePay.
+ * Copyright (c) 2015-2016 WePay.
  *
  * http://opensource.org/licenses/Apache2.0
  */
@@ -111,12 +111,19 @@ class Signer implements SignerInterface, LoggerAwareInterface
     /**
      * Signs and generates the query string URL parameters to use when making a request.
      *
+     * If the `client_secret` key is provided, then it will be automatically excluded from the result.
+     *
      * @param  array  $payload The data to generate a signature for.
      * @return string          The query string parameters to append to the end of a URL.
      */
     public function generateQueryStringParams(array $payload)
     {
         $token = $this->sign($payload);
+
+        // Explicitly remove the client_secret if they accidentally passed it.
+        if (isset($payload['client_secret'])) {
+            unset($payload['client_secret']);
+        }
 
         $payload['client_id'] = $this->getClientId();
         $payload['stoken']    = $token;

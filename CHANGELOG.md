@@ -1,8 +1,10 @@
 # CHANGELOG
 
-## Unreleased
+## 1.1.3 - 2016-08-11
 
-* TBD
+* GitHub has made some general service changes (e.g., adding signing support), so we have adapted the docs and Makefile appropriately.
+* Cleaned-up and improved the code samples in the documentation.
+* Explicitly removes the `client_secret` in case the customer accidentally provides it.
 
 ## 1.1.2 - 2015-10-28
 

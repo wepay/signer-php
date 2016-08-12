@@ -93,4 +93,27 @@ class SignerTest extends PHPUnit_Framework_TestCase
             $querystring
         );
     }
+
+    public function testGenerateQueryStringParamsClientSecret()
+    {
+        $querystring = $this->signer->generateQueryStringParams([
+            'page'          => 'https://wepay.com/account/12345',
+            'redirect_uri'  => 'https://partnersite.com/home',
+            'token'         =>  self::DEFAULT_TOKEN,
+            'client_id'     =>  self::DEFAULT_CLIENT_ID,
+            'client_secret' =>  self::DEFAULT_CLIENT_SECRET,
+        ]);
+
+        $this->assertEquals(
+            sprintf(
+                self::DEFAULT_QS,
+                self::DEFAULT_CLIENT_ID,
+                self::DEFAULT_PAGE,
+                self::DEFAULT_REDIRECT_URI,
+                self::DEFAULT_SIGNATURE,
+                self::DEFAULT_TOKEN
+            ),
+            $querystring
+        );
+    }
 }

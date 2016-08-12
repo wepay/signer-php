@@ -1,7 +1,7 @@
 Authors, Copyright & Licensing
 ==============================
 
--  Copyright (c) 2015 `WePay`_.
+-  Copyright (c) 2015–2016 `WePay`_.
 
 See also the list of `contributors`_ who participated in this project.
 

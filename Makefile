@@ -61,9 +61,8 @@ tag:
 
 	@echo " "
 
-	keybase dir sign
 	git add .
-	git commit -a -m "Cryptographically signed the $$(cat ./VERSION) release."
+	git commit -a -m "Preparing the $$(cat ./VERSION) release."
 	chag tag
 
 #-------------------------------------------------------------------------------

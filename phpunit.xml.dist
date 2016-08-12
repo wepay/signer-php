@@ -17,6 +17,12 @@
         </testsuite>
     </testsuites>
 
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+
     <logging>
         <log charset="UTF-8" highLowerBound="70" highlight="false" lowUpperBound="35" target="build/logs/report" type="coverage-html"/>
         <log target="build/logs/clover.xml" type="coverage-clover"/>

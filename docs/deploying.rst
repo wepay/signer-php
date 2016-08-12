@@ -17,7 +17,7 @@ make
 
 Running ``make`` by itself will show you a list of available sub-commands.
 
-.. code:: bash
+.. code-block:: bash
 
     $ make
     all
@@ -39,7 +39,7 @@ GitHub. You should have already set up:
 
 Then you can run:
 
-.. code:: bash
+.. code-block:: bash
 
     make pushdocs
 
@@ -53,16 +53,11 @@ This allows you to set the version number for the next release.
 make tag
 ------------
 
-You will need to have a `Keybase`_ account first, including setting-up the
-`Keybase CLI tool`_.
+This will leverage Chag to generate a commit for the tag.
 
-Then you can run:
-
-.. code:: bash
+.. code-block:: bash
 
     make tag
-
-You can view your changes in the ``SIGNED.md`` file.
 
 Drafting a GitHub release
 -------------------------

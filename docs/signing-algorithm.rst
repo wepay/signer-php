@@ -13,7 +13,7 @@ scope
 
 Source:
 
-.. code:: php
+.. code-block:: php
 
     # WePay/client_id/signer
     scope = "WePay/" + client_id + "/signer"
@@ -29,7 +29,7 @@ canonical\_context
 
 Source:
 
-.. code:: php
+.. code-block:: php
 
     # Your input data, as key-value pairs
     key_value_pairs = [
@@ -79,7 +79,7 @@ string\_to\_sign
 
 Source:
 
-.. code:: php
+.. code-block:: php
 
     # Determine the string that will ultimately be signed
     # hash_sha512() produces a 128-character hexadecimal hash
@@ -104,7 +104,7 @@ signing\_key
 
 Source:
 
-.. code:: php
+.. code-block:: php
 
     # raw_hmac_sha512(data, secret) returns raw binary data
     self_key_sign  = raw_hmac_sha512("WePay", client_secret)
@@ -125,7 +125,7 @@ signature
 
 Source:
 
-.. code:: php
+.. code-block:: php
 
     # raw_hmac_sha512(data, secret) returns raw binary data
     signature = raw_hmac_sha512(string_to_sign, signing_key)
