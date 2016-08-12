@@ -111,6 +111,8 @@ class Signer implements SignerInterface, LoggerAwareInterface
     /**
      * Signs and generates the query string URL parameters to use when making a request.
      *
+     * If the `client_secret` key is provided, then it will be automatically excluded from the result.
+     *
      * @param  array  $payload The data to generate a signature for.
      * @return string          The query string parameters to append to the end of a URL.
      */

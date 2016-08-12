@@ -12,7 +12,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 project = u'WePay Signer for PHP'
 copyright = u'2015–2016 WePay'
-version = '1.0.0'
+version = '1.1.3'
 html_title = "WePay Signer for PHP Documentation"
 html_short_title = "WePay Signer for PHP"
 

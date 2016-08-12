@@ -6,7 +6,7 @@ install the dependencies.
 
 You can run the tests as follows:
 
-.. code:: bash
+.. code-block:: bash
 
     make test
 

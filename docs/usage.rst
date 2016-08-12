@@ -4,7 +4,7 @@ Usage
 Generate a signature
 --------------------
 
-.. code:: php
+.. code-block:: php
 
     use WePay\Signer\Signer;
 
@@ -25,7 +25,7 @@ Generate a signature
 Generate all of the query string parameters for the request
 -----------------------------------------------------------
 
-.. code:: php
+.. code-block:: php
 
     $querystring = $signer->generateQueryStringParams([
         'token'        => $your_token,

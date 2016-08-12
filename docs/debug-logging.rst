@@ -8,7 +8,7 @@ Signer implements the `PSR-3`_ ``Psr\Log\LoggerAwareInterface``. Because
 of this, you can inject any PSR-3-compatible logging package, and Signer
 will use it to log ``DEBUG``-level messages.
 
-.. code:: php
+.. code-block:: php
 
     use Monolog\Logger;
     use Monolog\Handler\StreamHandler;

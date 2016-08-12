@@ -17,7 +17,7 @@ make
 
 Running ``make`` by itself will show you a list of available sub-commands.
 
-.. code:: bash
+.. code-block:: bash
 
     $ make
     all
@@ -39,7 +39,7 @@ GitHub. You should have already set up:
 
 Then you can run:
 
-.. code:: bash
+.. code-block:: bash
 
     make pushdocs
 
@@ -55,7 +55,7 @@ make tag
 
 This will leverage Chag to generate a commit for the tag.
 
-.. code:: bash
+.. code-block:: bash
 
     make tag
 
