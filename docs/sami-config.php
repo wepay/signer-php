@@ -18,6 +18,7 @@ $repo = dirname(__DIR__);
 $versions = GitVersionCollection::create($repo)
     ->addFromTags('1.*')
     ->add('master', 'master branch')
+    ->add('feature/*')
 ;
 
 return new Sami($iterator, array(
