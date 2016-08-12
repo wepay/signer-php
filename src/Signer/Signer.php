@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2015 WePay.
+ * Copyright (c) 2015-2016 WePay.
  *
  * http://opensource.org/licenses/Apache2.0
  */
@@ -117,6 +117,11 @@ class Signer implements SignerInterface, LoggerAwareInterface
     public function generateQueryStringParams(array $payload)
     {
         $token = $this->sign($payload);
+
+        // Explicitly remove the client_secret if they accidentally passed it.
+        if (isset($payload['client_secret'])) {
+            unset($payload['client_secret']);
+        }
 
         $payload['client_id'] = $this->getClientId();
         $payload['stoken']    = $token;
