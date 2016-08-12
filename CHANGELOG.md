@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-* TBD
+* GitHub has made some general service changes (e.g., adding signing support), so we have adapted the docs and Makefile appropriately.
 
 ## 1.1.2 - 2015-10-28
 
