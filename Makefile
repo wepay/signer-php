@@ -16,7 +16,16 @@ test:
 
 .PHONY: docs
 docs:
+	@ echo "Building API reference…"
 	php bin/sami.php update docs/sami-config.php -v
+
+	@ echo "Building prose documentation…"
+	cd docs && make html
+
+.PHONY: showdocs
+showdocs:
+	open docs/api-build/master/index.html
+	open docs/_build/html/index.html
 
 .PHONY: pushdocs
 pushdocs: docs
@@ -24,6 +33,9 @@ pushdocs: docs
 	git clone git@github.com:wepay/signer-php.git --branch gh-pages --single-branch /tmp/gh-pages
 	cp -Rf ./docs/api-build/ /tmp/gh-pages/
 	cd /tmp/gh-pages/ && git add . && git commit -a -m "Automated commit on $$(date)" && git push origin gh-pages
+
+	@ echo " "
+	@ echo "Prose documentation is automatically built by the Read The Docs service. https://readthedocs.org/projects/wepay-signer-php/"
 
 #-------------------------------------------------------------------------------
 
