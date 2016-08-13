@@ -31,7 +31,7 @@ showdocs:
 pushdocs: docs
 	rm -Rf /tmp/gh-pages
 	git clone git@github.com:wepay/signer-php.git --branch gh-pages --single-branch /tmp/gh-pages
-	cp -Rf ./docs/api-build/ /tmp/gh-pages/
+	cp -Rf ./docs/api-build/* /tmp/gh-pages/
 	cd /tmp/gh-pages/ && git add . && git commit -a -m "Automated commit on $$(date)" && git push origin gh-pages
 
 	@ echo " "
