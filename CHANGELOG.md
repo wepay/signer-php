@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.1.4 - 2016-11-10
+* Url encode the request params in generated query string parameters.
+
 ## 1.1.3 - 2016-08-11
 
 * GitHub has made some general service changes (e.g., adding signing support), so we have adapted the docs and Makefile appropriately.
