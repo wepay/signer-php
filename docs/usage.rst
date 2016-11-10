@@ -29,11 +29,13 @@ Generate all of the query string parameters for the request
 
     $querystring = $signer->generateQueryStringParams([
         'token'        => $your_token,
-        'page'         => urlencode($wepay_page_to_visit),
-        'redirect_uri' => urlencode($partner_page_to_return_to),
+        'page'         => $wepay_page_to_visit,
+        'redirect_uri' => $partner_page_to_return_to,
     ]);
 
     #=> client_id=your_client_id&
     #=> page=https%3A%2F%2Fwepay.com%2Faccount%2F12345&     // in url encoded format
     #=> redirect_uri=https://partnersite.com/home&          // in url encoded format
     #=> token=dfbffab5b6f7156402da8147886bba3eba67bd5baf2e780ba9d39e8437db7c47...
+
+If you are generating the query string parameters by yourself, make sure that page and redirect_uri are in url encoded format

@@ -130,6 +130,6 @@ class Signer implements SignerInterface, LoggerAwareInterface
 
         ksort($payload);
 
-        return http_build_query($payload);
+        return http_build_query($payload, '', '&');
     }
 }
