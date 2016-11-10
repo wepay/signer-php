@@ -1,6 +1,7 @@
 # CHANGELOG
 
-## 1.1.3 - 2016-11-10
+## 1.1.4 - 2016-11-10
+
 * Url encode the request params in generated query string parameters.
 
 ## 1.1.3 - 2016-08-11
