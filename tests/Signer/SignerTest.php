@@ -25,7 +25,7 @@ class SignerTest extends PHPUnit_Framework_TestCase
     const DEFAULT_PAGE = 'https%3A%2F%2Fwepay.com%2Faccount%2F12345';
 
     /** @var string */
-    const DEFAULT_REDIRECT_URI = 'https://partnersite.com/home';
+    const DEFAULT_REDIRECT_URI = 'https%3A%2F%2Fpartnersite.com%2Fhome';
 
     /** @var string */
     const DEFAULT_QS = 'client_id=%s&page=%s&redirect_uri=%s&stoken=%s&token=%s';
