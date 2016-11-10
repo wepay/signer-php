@@ -132,6 +132,9 @@ class Signer implements SignerInterface, LoggerAwareInterface
 
         $qsa = [];
         foreach ($payload as $k => $v) {
+            if ($k === 'page') {
+                $v = urlencode($v);
+            }
             $qsa[] = sprintf('%s=%s', $k, $v);
         }
 

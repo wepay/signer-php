@@ -22,7 +22,7 @@ class SignerTest extends PHPUnit_Framework_TestCase
     const DEFAULT_SIGNATURE = 'c2de34c15cd76f797cf80781747da3874639a827a4cb79dcd862cc17b35cf2e2c721ea7d49ab9f60590d637ae0f51fd4ed8ddb551b922e0cd7e35a13b86de360';
 
     /** @var string */
-    const DEFAULT_PAGE = 'https://wepay.com/account/12345';
+    const DEFAULT_PAGE = 'https%3A%2F%2Fwepay.com%2Faccount%2F12345';
 
     /** @var string */
     const DEFAULT_REDIRECT_URI = 'https://partnersite.com/home';
