@@ -8,20 +8,21 @@ php:
   - 5.5
   - 5.6
   - 7.0
+  - 7.1
   - nightly
-  - hhvm-3.3
-  - hhvm-3.6
   - hhvm-3.9
   - hhvm-3.12
+  - hhvm-3.15
+  - hhvm-3.17
   - hhvm-nightly
 
 matrix:
   fast_finish: true
   allow_failures:
-    - php: hhvm-3.3
-    - php: hhvm-3.6
     - php: hhvm-3.9
     - php: hhvm-3.12
+    - php: hhvm-3.15
+    - php: hhvm-3.17
     - php: hhvm-nightly
 
 before_script:
@@ -43,4 +44,4 @@ after_success:
 
 notifications:
   email:
-    - 'ryan.parman@wepay.com'
+    - 'vasusen@wepay.com'
